@@ -1,0 +1,18 @@
+package server.database.manager;
+
+import server.database.User;
+import server.database.dao.MySqlUserDao;
+import server.database.dao.UserDao;
+
+public class UserManager {
+
+	UserDao userDao = new MySqlUserDao();
+	
+	public UserManager() {
+		userDao = new MySqlUserDao();
+	}
+
+	public User getUserByUsernameAndPass(String username, String password) {
+		return userDao.getUserByUsernameAndPass(username, password);
+	}
+}

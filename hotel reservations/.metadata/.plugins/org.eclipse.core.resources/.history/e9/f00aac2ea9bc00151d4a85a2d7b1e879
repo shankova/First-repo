@@ -1,0 +1,13 @@
+package server.database.dao;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import server.database.connection.DbConnector;
+
+public class MySqlRoomDao implements RoomDao {
+
+	DbConnector conn = new DbConnector();
+	private PreparedStatement prStatement = null;
+	private ResultSet result = null;
+}

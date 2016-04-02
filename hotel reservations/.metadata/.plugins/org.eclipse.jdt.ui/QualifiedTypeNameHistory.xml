@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="server.database.Reservation"/>
+<fullyQualifiedTypeName name="java.net.ServerSocket"/>
+<fullyQualifiedTypeName name="server.thread.ServerThread"/>
+<fullyQualifiedTypeName name="server.database.dao.MySqlUserDao"/>
+<fullyQualifiedTypeName name="server.database.dao.UserDao"/>
+<fullyQualifiedTypeName name="server.database.manager.UserManager"/>
+<fullyQualifiedTypeName name="java.net.Socket"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="javax.security.auth.login.LoginContext"/>
+<fullyQualifiedTypeName name="server.database.User"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.DataOutputStream"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.io.DataInputStream"/>
+</qualifiedTypeNameHistroy>

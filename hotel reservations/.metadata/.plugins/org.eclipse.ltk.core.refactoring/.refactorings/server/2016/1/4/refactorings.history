@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;server.database.dao.UserDao.getUserById(...)&apos; to &apos;getUserByUsernameAndPass&apos;&#x0D;&#x0A;- Original project: &apos;server&apos;&#x0D;&#x0A;- Original element: &apos;server.database.dao.UserDao.getUserById(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;server.database.dao.UserDao.getUserByUsernameAndPass(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;getUserById&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;server.database.dao{UserDao.java[UserDao~getUserById~I" name="getUserByUsernameAndPass" references="true" stamp="1453055418926" version="1.0"/>
+</session>

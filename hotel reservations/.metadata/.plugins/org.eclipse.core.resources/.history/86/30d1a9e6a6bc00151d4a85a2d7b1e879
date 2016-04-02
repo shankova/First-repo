@@ -1,0 +1,26 @@
+package server.database.dao;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import server.database.User;
+import server.database.connection.DbConnector;
+
+public class MySqlUserDao implements UserDao {
+
+	DbConnector conn = new DbConnector();
+	private PreparedStatement prStatement = null;
+	private ResultSet result = null;
+
+	@Override
+	public User getUserById(int id) {
+		
+		return null;
+	}
+
+	private User resultToObject () {
+		User user = new User();
+		
+		return user;
+	}
+}

@@ -1,0 +1,31 @@
+package server.thread;
+
+import java.net.Socket;
+
+import com.google.gson.Gson;
+
+public class ServerThread implements Runnable {
+
+	Socket socket = null;
+
+	public ServerThread (Socket socket)
+	{
+//		try
+//		{
+		   this.socket=socket;
+//		   input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+//		   output = new DataOutputStream(socket.getOutputStream());
+//		}
+//		catch (IOException e)
+//		{
+//			e.printStackTrace();
+//		}
+	}
+
+	@Override
+	public void run() {
+		
+		
+	}
+
+}

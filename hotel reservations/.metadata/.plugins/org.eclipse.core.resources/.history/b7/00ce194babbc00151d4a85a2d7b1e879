@@ -1,0 +1,6 @@
+package server.database.dao;
+
+public class MySqlReservationDao implements ReservationDao {
+
+	
+}
